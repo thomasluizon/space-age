@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Space Age</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="script.js" defer></script>
+	</head>
+	<body>
+		<h1>Space Age</h1>
+		<form>
+			<div>
+				<label for="planet">Selecione um planeta</label>
+				<select name="planet" id="planet">
+					<option value="mercury">Mercury</option>
+					<option value="venus">Venus</option>
+					<option value="mars">Mars</option>
+					<option value="jupiter">Jupiter</option>
+					<option value="saturn">Saturn</option>
+					<option value="uranus">Uranus</option>
+					<option value="neptune">Neptune</option>
+				</select>
+			</div>
+			<div>
+				<label for="time"
+					>Insira o tempo em segundos para ser convertido</label
+				>
+				<input type="text" id="time" />
+			</div>
+			<button type="submit">Converter tempo</button>
+		</form>
+		<p id="result"></p>
+	</body>
+</html>
